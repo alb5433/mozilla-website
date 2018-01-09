@@ -8,4 +8,5 @@ p, h1, li{
 
 #mainquote{
 	color: green;
+	border-style: double;
 }
