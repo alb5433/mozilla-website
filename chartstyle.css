@@ -1,0 +1,30 @@
+#stockchart
+  font: 10px sans-serif;
+}
+
+#stockchart .axis path,
+#stockchart .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#stockchart .x.axis path {
+  display: none;
+}
+
+#stockchart .line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+#stockchart .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#stockchart .focus circle {
+  fill: none;
+  stroke: steelblue;
+}
